@@ -1,0 +1,358 @@
+
+@font-face
+{
+	font-family:'patlican';
+	src:url('font/Roboto-Bold.ttf');
+		
+}
+
+
+
+body
+{
+	
+	background:url("body_arkaplan.png") repeat;
+}
+div.ust
+{
+	width:1100px;
+	height:72px;
+
+	margin:auto;
+	
+	
+}
+div.ust div.sembol
+{
+	width:100px;
+	height:72px;
+	background:url("sembol.png") no-repeat;
+	float:left;
+	
+}
+div.ust div.slogan
+{
+	width:467px;
+	height:72px;
+	font:bold 18px patlican;
+	color:#c34b1f;
+	float:left;
+	margin-left:14px;
+}
+div#anahat
+{
+	width:1100px;
+	height:1300px;
+	background-color:#ffffff;
+	margin:auto;
+}
+
+div.ust div.menu 
+{
+	
+	width:515px;
+	height:35px;
+	float:left;
+	margin-top:30px;
+	
+}
+div.ust div.menu ul
+{
+	
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	
+}
+div.ust div.menu ul li
+{
+	
+	width:100px;
+	height:35px;
+	float:left;
+	margin-left:3px;
+
+}
+
+div.ust div.menu ul li a
+{
+	
+ text-decoration:none;
+ color:#5c5b5b;
+ font:15px "Myriad Pro Bold";
+ padding:5px;
+ display:block;
+}
+
+div.ust div.menu ul li a:hover/*hover:üzerine gidildiğinde*/
+{
+	
+	background-color:#c34b1f;
+}
+
+div#anahat div.icerik 
+{
+	width:1000px;
+	height:1250px;
+	margin:80px 50px;
+	position:absolute;
+	
+	
+}
+div#anahat div.icerik div.banner
+{
+	width:1000px;
+	height:495px;
+	background-color:#f2f2f2;
+	
+	
+}
+
+div#anahat div.icerik  div.banner div.banner_ust
+{
+	width:1000px;
+	height:378px;
+	background:url("banner_ust.png") repeat;
+	
+	
+}
+
+div#anahat div.icerik  div.banner div.banner_cizgi
+{
+	width:1000px;
+	height:3px;
+	background-color:#98a408;
+	
+	
+}
+div#anahat div.icerik  div.banner div.oklar
+{
+	width:1000px;
+	height:42px;
+	
+	margin-top:17px;
+	
+	
+}
+
+div#anahat div.icerik  div.banner div.oklar div.oksol
+{
+	width:495px;
+	height:42px;
+	
+	float:left;
+	
+}
+div#anahat div.icerik  div.banner div.oklar div.oksag
+{
+	width:495px;
+	height:42px;
+	
+	float:left;
+	margin-left:10px;
+	
+	
+}
+
+div.oklar div.oksol img
+{
+	
+	float:right;
+}
+div.oklar div.oksag img
+{
+	
+	float:left;
+}
+
+div.icerik div.haberler
+{
+	width:1000px;
+	height:350PX;
+	margin-top:10px;
+
+	
+}
+
+div.icerik div.haberler div.haber
+{
+	width:290px;
+	height:300px;
+	background-color:#eee;
+	float:left;
+	margin-left:26px;
+	padding:5px 13px;
+	
+	
+}
+
+div.icerik div.haberler div.haber:first-child
+{
+	margin-left:0;
+	
+}
+
+
+
+div.icerik div.haberler div.haber div.haber_baslik 
+{
+	width:290px;
+	height:30px;
+	font:13px "Myriad Pro Bold";
+	color:#6b6969;
+	
+	
+}
+div.icerik div.haberler div.haber div.haber_cizgi
+{
+	width:290px;
+	height:2px;
+	background-color:#2475ad;
+	
+	
+}
+
+div.icerik div.haberler div.haber div.haber_resim
+{
+	width:290px;
+	height:110px;
+	margin-top:24px;
+	background-color:#2475ad;
+	
+	
+}
+
+div.icerik div.haberler div.haber div.haber_yazi
+{
+	width:290px;
+	height:70px;
+	margin-top:5px;
+	font:12px patlican;
+	color:#6b6969;
+	
+	
+}
+div.icerik div.haberler div.haber div.haber_devam
+{
+	
+	width:75px;
+	height:24px;
+	background-color:#c34b1f;
+	float:right;
+	color:#fff;
+	font:14px "Myriad Pro Bold";
+	text-align:center;
+	
+}
+
+
+div.icerik div.projelerimiz
+{
+	width:948px;
+	height:145px;
+	background:url("proje_desen2.png") repeat;
+	padding:5px 26px;
+}
+
+
+div.icerik div.projelerimiz div.proje_baslik
+{
+	font:bold 16px "Myriad Pro Bold";
+	color:#6b6969;
+}
+
+
+
+div.icerik div.projelerimiz div.proje_cizgi
+{
+	width:948px;
+	height:2px;
+	background-color:#2475ad;
+	
+}
+
+
+
+div.icerik div.projelerimiz div.projeler
+{
+	width:948px;
+	height:100px;
+
+	margin-top:5px;
+}
+
+div.icerik div.projelerimiz div.projeler div.proje
+{
+	width:230px;
+	height:100px;
+
+	float:left;
+	margin-left:9px;
+	
+}
+div.icerik div.projelerimiz div.projeler div.proje:first-child
+{
+	margin-left:0;
+	
+}
+
+
+div.icerik div.projelerimiz div.projeler div.proje div.proje_resim
+{
+	width:77px;
+	height:77px;
+	background-color:#2475ad;
+	border-radius:10px;
+	box-shadow:3px 3px 3px;
+	float:left;
+}
+
+
+div.icerik div.projelerimiz div.projeler div.proje div.proje_link
+{
+	width:100px;
+	height:30px;
+	
+	float:left;
+	margin:25px 10px;
+}
+
+div.icerik div.projelerimiz div.projeler div.proje div.proje_link span
+{
+	color:#f00;
+}
+
+
+
+
+
+div.icerik div.alt
+{
+	
+	width:948px;
+	height:90px;
+	margin-top:15px;
+	padding:5px 26px;
+	background-color:#9fa469;
+	
+	
+}
+
+
+div.icerik div.alt div.alt_resim
+{
+	
+	width:88px;
+	height:88px;
+	border-radius:100%;
+	background:url("bilisim.png") no-repeat;
+	border:solid 2px;
+	margin:auto;
+	
+}
+
+
+
+
+
+
